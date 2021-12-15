@@ -11,7 +11,12 @@ class InMemeoryUsersRepo implements UsersRepo {
   final UserFromDtoMapper _userFromDtoMapper;
   final UserToDtoMapper _userToDtoMapper;
 
-  final _dtos = <UserDto>[];
+  final _dtos = <UserDto>[
+    UserDto(1, "Jan", 12.1, 12.2),
+    UserDto(2, "Eryk", 12.1, 12.2),
+    UserDto(3, "Huan", 12.1, 12.2),
+    UserDto(4, "Pedro", 12.1, 12.2),
+  ];
 
   InMemeoryUsersRepo(this._userFromDtoMapper, this._userToDtoMapper);
 
