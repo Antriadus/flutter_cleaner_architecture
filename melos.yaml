@@ -9,3 +9,8 @@ scripts:
       flutter pub global run melos exec -c 6 --fail-fast -- \
         "flutter pub get"
     description: Runs pub get concurrent in 6 packages
+  build_runner:
+    run: |
+      flutter pub global run melos exec -c 6 --fail-fast -- \
+        "flutter pub run build_runner build --delete-conflicting-outputs"
+    description: Runs build_runner build concurrent in 6 packages
