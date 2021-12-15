@@ -1,0 +1,30 @@
+name: mobile
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  presentation:
+    path: ../presentation
+  domain:
+    path: ../domain
+  infrastucture:
+    path: ../infrastucture
+  fimber: ^0.6.4
+  get_it: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: 2.1.5
+
+flutter:
+  uses-material-design: true
+  # assets:
+    # -  assets/images/
+ 
