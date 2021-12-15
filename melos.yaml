@@ -1,0 +1,11 @@
+name: clean_melos
+
+packages: 
+  - /**
+
+scripts:
+  pub_get:
+    run: |
+      flutter pub global run melos exec -c 6 --fail-fast -- \
+        "flutter pub get"
+    description: Runs pub get concurrent in 6 packages
