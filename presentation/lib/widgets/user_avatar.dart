@@ -10,11 +10,11 @@ class UserAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Column(
+      title: Row(
         children: [
-          Image.asset("assets/images/image1.png", package: 'presentation'),
-          Image.asset("assets/images/image2.png", package: 'presentation'),
-          Text([user.name, user.home.toString()].join('\t')),
+          Image.asset("assets/images/image1.png", height: 50, width: 50, package: 'presentation'),
+          Image.asset("assets/images/image2.png", height: 50, width: 50, package: 'presentation'),
+          Text([user.name, user.home.latitude.toString(), user.home.longitude.toString()].join('    ')),
         ],
       ),
     );

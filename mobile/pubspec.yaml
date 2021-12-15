@@ -25,6 +25,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-    # -  assets/images/
+  # Need to specify each asset
+  assets:
+    - packages/presentation/assets/images/image1.png
+    - packages/presentation/assets/images/image2.png
  

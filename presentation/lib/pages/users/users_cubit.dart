@@ -9,7 +9,7 @@ class UsersCubit extends Cubit<UsersState> {
   UsersCubit(this.getAllUsersUseCase) : super(UsersState.loading());
 
   Future<void> init() async {
-    await Future.delayed(const Duration(seconds: 5));
+    await Future.delayed(const Duration(seconds: 2));
     final users = await getAllUsersUseCase();
     emit(UsersState.loaded(users: users));
   }
