@@ -14,3 +14,5 @@ class UsersCubit extends Cubit<UsersState> {
     emit(UsersState.loaded(users: users));
   }
 }
+
+Map<String, dynamic> _noUsedPresentationFunction() => <String, dynamic>{};
