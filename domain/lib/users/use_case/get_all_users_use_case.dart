@@ -7,6 +7,7 @@ class GetAllUsersUseCase {
   GetAllUsersUseCase(this._repo);
 
   Future<List<User>> call() {
+    Fimber.i('GetAllUsersUseCase call');
     return _repo.getAll();
   }
 }

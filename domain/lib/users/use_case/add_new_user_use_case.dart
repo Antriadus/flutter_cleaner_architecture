@@ -8,6 +8,7 @@ class AddNewUserUseCase {
   AddNewUserUseCase(this._repo);
 
   Future<User> call(AddUserData newUser) {
+    Fimber.i('AddNewUserUseCase call');
     return _repo.add(newUser);
   }
 }
