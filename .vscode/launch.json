@@ -8,7 +8,7 @@
             "name": "run web mobile",
             "request": "launch",
             "type": "dart",
-            "program":"mobile/lib/src/main.dart"
+            "program":"mobile/lib/main.dart"
         },
       
     ]
