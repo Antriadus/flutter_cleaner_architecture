@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mobile/presentation/custom_hooks/use_bloc.dart';
 import 'package:mobile/presentation/custom_hooks/use_bloc_listener.dart';
-import 'package:mobile/presentation/users/users_cubit.dart';
+import 'package:mobile/presentation/pages/users/users_cubit.dart';
 import 'package:mobile/presentation/widgets/user_avatar.dart';
 
 class UsersPage extends HookWidget {

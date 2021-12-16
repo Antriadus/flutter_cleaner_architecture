@@ -3,8 +3,7 @@ import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
 import 'package:infrastucture/injector.dart';
 import 'package:mobile/injector.dart';
-
-import 'presentation/users/users_page.dart';
+import 'presentation/pages/users/users_page.dart';
 
 void main() {
   configureInfrastructureDependencies();
