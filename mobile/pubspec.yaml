@@ -13,11 +13,11 @@ dependencies:
     path: ../domain
   infrastucture:
     path: ../infrastucture
-  fimber: ^0.6.4
-  latlng: ^0.1.0
-  get_it: ^7.2.0
+  fimber: 0.6.4
+  latlng: 0.1.0
+  get_it: 7.2.0
   flutter_hooks: 0.17.0
-  bloc: ^8.0.1
+  bloc: 8.0.1
   provider: 5.0.0
   freezed_annotation: 1.0.0
 
@@ -26,7 +26,7 @@ dev_dependencies:
     sdk: flutter
   build_runner: 2.1.5
   freezed: 1.0.0
-  injectable_generator: ^1.5.2
+  injectable_generator: 1.5.2
 
 flutter:
   uses-material-design: true
